@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    a = 1,b = 1;
+    if((a*a)+(b*b)==10)
+        printf("on");
+    if((a*a)+(b*b)>10)
+        printf("out");
+    if((a*a)+(b*b)<10)
+        printf("in");
+    return 0;
+}
